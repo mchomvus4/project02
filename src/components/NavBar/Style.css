@@ -8,15 +8,16 @@ header{
 
 .travel-text-box{
     position: absolute;
-    width: 1140px;
     top: 50%;
     left: 20%;
 }
 .travel{
     color: #ed5421;
     text-align: center;
-    margin-right:40%;
+    margin-right:10%;
     text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 20px;
 }
 h1{
     margin: 0;
@@ -31,13 +32,59 @@ h1{
     color: #fff;
     opacity: 0.4;
 }
-.btn-btn-contact{
+
+.btn-btn-contact:link,
+.btn-btn-contact:visited{
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
     text-decoration: none;
     background-color: #e67e22;
     color: #fff;
-    margin-left: 20%;
-
+    
+}
+.btn-btn-contact:hover,
+.btn-btn-contact:active{
+    background-color: #61b69d;
+}
+.btn-btn-contact{
+    margin-top: 20px;
+    margin-left: 35%;
+    transition: background-color 0.4s, border 0.4s, color 0.4s;
+}
+.design{
+    color: #ed5421;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 60px;
+    
+    
+}
+.logo{
+    color: #fff;
+    position: absolute;
+    margin-top: 20px;
+}
+.logo,
+.design{
+    float: left;
+}
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-right: 50px;
+    
+}
+.main-nav li{
+    display: inline-block;
+    margin-left: 40px;
+}
+.main-nav li a{
+    color: #fff;
+    text-decoration: none;
+}
+ .login{
+    background-color: #e67e22;
+    padding: 3px 8px;
+    
 }

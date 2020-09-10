@@ -1,11 +1,26 @@
 import React from 'react'
 import './Style.css';
-import '../Grid.css';
+
 function NavBar() {
     return (
         <div>
-            <body>
-                <header>
+            
+            <header>
+                <nav>
+                    <div className="row">
+                        <h3 className="logedesign"><span className="logo">LOGO</span>&nbsp;<span className="design">DESIGN</span></h3>   
+                        <ul className="main-nav">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li className="login"><a href="#">Login</a></li>
+                            
+                            
+
+                        </ul>
+                    </div>
+                </nav>
                     <div className="travel-text-box">
                         <h2 className="travel">Travel Agency</h2>
                         <h1>Enjoy Your Journey with US</h1>
@@ -13,7 +28,7 @@ function NavBar() {
                         <a className="btn-btn-contact" href ="#">Contact Us</a>
                     </div>
                 </header>
-            </body>
+            
         </div>
     )
 }
