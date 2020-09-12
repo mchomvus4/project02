@@ -14,23 +14,23 @@ function Destination() {
             </div>
             <div className="row bg-images">
                 <div className="col span-1-of-4">
-                    <img src={image2} alt="second image" className="second" />
+                    <img src={image2} alt="second" className="second" />
                     
                   
                 </div>
 
                 <div className="col span-1-of-4">
-                    <img src={image1} alt="second image" className="second" />
+                    <img src={image1} alt="second" className="second" />
                     
                 </div>
 
                 <div className="col span-1-of-4">
-                    <img src={image3} alt="second image" className="second" />
+                    <img src={image3} alt="second" className="second" />
                      
                 </div>
 
                 <div className="col span-1-of-4">
-                    <img src={image4} alt="second image" className="second"/>
+                    <img src={image4} alt="second" className="second"/>
                      
                 </div>
 

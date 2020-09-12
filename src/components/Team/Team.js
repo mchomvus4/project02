@@ -16,7 +16,7 @@ function Team() {
                 </div>
                 <div className="col span-1-of-2 bg">
                     <p className="lorem-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam accumsan quis orci in sagittis. Ut dolor mauris, tempus quis vestibulum non, feugiat non ipsum. Mauris euismod vulputate neque sit amet lobortis. Vivamus scelerisque at tellus dictum consectetur. Etiam suscipit vehicula tortor et aliquet. Etiam dapibus, est sit amet mollis pellentesque, risus ipsum commodo quam, non luctus arcu risus eleifend justo. Morbi bibendum dictum ipsum ut pulvinar.</p>
-                      <a className="btn-btn-readmore" href ="#">ReadMore</a>
+                      <a className="btn-btn-readmore" href ="#readmore">ReadMore</a>
                 </div>
             </div>
             <div className="row sub-team">

@@ -12,7 +12,7 @@ function Testimonial() {
             <div className="row card">
                 <div className="col span-1-of-3 card">
                     <div className="card-header">
-                        <img src={testimone} alt="testimonial picture" className="testimonial-img"/>
+                        <img src={testimone} alt="testimonial" className="testimonial-img"/>
                     </div>
                     <div className="card-body">
                         <p className="testimone-page">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
@@ -25,7 +25,7 @@ function Testimonial() {
                 </div>
                 <div className="col span-1-of-3 card">
                      <div className="card-header">
-                        <img src={testimone} alt="testimonial picture" className="testimonial-img"/>
+                        <img src={testimone} alt="testimonial" className="testimonial-img"/>
                     </div>
                     <div className="card-body">
                         <p className="testimone-page">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
@@ -37,7 +37,7 @@ function Testimonial() {
                 </div>
                 <div className="col span-1-of-3 card">
                      <div className="card-header">
-                        <img src={testimone} alt="testimonial picture" className="testimonial-img"/>
+                        <img src={testimone} alt="testimonial" className="testimonial-img"/>
                     </div>
                     <div className="card-body">
                         <p className="testimone-page">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>

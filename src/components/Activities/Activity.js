@@ -20,7 +20,7 @@ function Activity() {
                         <p className="ipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                     <div className="booking">
-                      $250.0<span><a className="btn-btn-activity" href ="#">Book now</a></span>
+                      $250.0<span><a className="btn-btn-activity" href ="#booknow">Book now</a></span>
                     </div>
                 </div>
 
@@ -32,7 +32,7 @@ function Activity() {
                          <p className="ipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                     <div className="booking">
-                      $250.0<span><a className="btn-btn-activity" href ="#">Book now</a></span>
+                      $250.0<span><a className="btn-btn-activity" href ="#booknow">Book now</a></span>
                     </div>
                 </div>
 
@@ -44,7 +44,7 @@ function Activity() {
                          <p className="ipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                     <div className="booking">
-                      $250.0<span><a className="btn-btn-activity" href ="#">Book now</a></span>
+                      $250.0<span><a className="btn-btn-activity" href ="#booknow">Book now</a></span>
                     </div>
                 </div>
             </div>
