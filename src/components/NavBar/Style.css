@@ -55,15 +55,17 @@ h1{
 .design{
     color: #ed5421;
     position: absolute;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 60px;
+    font-style: italic;
+    border-bottom: 1px solid #ed5421;
     
     
 }
 .logo{
     color: #fff;
     position: absolute;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .logo,
 .design{
@@ -87,4 +89,19 @@ h1{
     background-color: #e67e22;
     padding: 3px 8px;
     
+}
+.main-nav li a:link,
+.main-nav li a:visited{
+      padding: 8px 0;
+      border-bottom: 2px solid transparent;
+      transition: border-bottom 0.4s;
+      
+
+
+}
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid #ed5421;
+
+
 }

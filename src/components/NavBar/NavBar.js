@@ -1,6 +1,7 @@
 import React from 'react'
 import './Style.css';
 
+
 function NavBar() {
     return (
         <div>
@@ -10,15 +11,21 @@ function NavBar() {
                     <div className="row">
                         <h3 className="logedesign"><span className="logo">LOGO</span>&nbsp;<span className="design">DESIGN</span></h3>   
                         <ul className="main-nav">
-                            <li><a href="#">Home</a></li>
+                            <li className="active"><a href="#">Home</a></li>
                             <li><a href="#">About</a></li>
                             <li><a href="#">Services</a></li>
                             <li><a href="#">Blog</a></li>
                             <li className="login"><a href="#">Login</a></li>
-                            
-                            
-
                         </ul>
+                       {/* <div>
+                            <ul className="social-media">
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Twitter</a></li>
+                                <li><a href="#">{IoLogoInstagram}</a></li>
+                            
+                        </ul>
+                       </div> */}
                     </div>
                 </nav>
                     <div className="travel-text-box">
