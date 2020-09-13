@@ -5,6 +5,8 @@ import Destination from './components/Destination/Destination';
 import Team from './components/Team/Team';
 import Activity from './components/Activities/Activity';
 import Testimonial from './components/Testimonial/Testimonial';
+import Update from './components/Updates/Update';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -13,7 +15,9 @@ function App() {
       <Destination />
       <Team />
       <Activity />
-      <Testimonial/>
+      <Testimonial />
+      <Update />
+      <Contact/>
     </div>
   );
 }

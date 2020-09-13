@@ -1,9 +1,10 @@
-.destinaton{
+.destinaton-testimonial{
     text-align: center;
     text-transform: uppercase;
     color:  #e67e22;
     background-color: #f5f6fa;
     padding-top: 20px;
+    margin-top: -22px;
 }
 .top-destination{
     text-align: center;
@@ -23,6 +24,7 @@
 .card-header{
     position: relative;
     height: 120px;
+   
 }
 .testimonial-img{
     width: 96px;
@@ -37,16 +39,28 @@
 .testimone-page{
     font-size: 12px;
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 .card-footer{
     border-top: 1px solid #e67e22;
+    padding-top: 40px;
 }
 .star{
     color: #e67e22;
     font-size: 30px;
+    margin-top: -50px;
 }
 .name{
     margin-top: -40px;
     margin-left: 40%;
+    font-size: 17px;
+}
+.card-main{
+    width: 70%;
+}
+.testimonial-section{
+    background-color:#f5f0f0;
+    margin: 12px;
+    
+
 }

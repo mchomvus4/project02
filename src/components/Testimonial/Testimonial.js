@@ -1,15 +1,15 @@
 import React from 'react'
 import './Testimonial.css';
-import '../Grid.css';
+// import '../Grid.css';
 import testimone from '../images/sam.png';
 function Testimonial() {
     return (
-        <section>
+        <section className="testimonial-section">
              <div className="row">
-                <h3 className="destinaton">Testimonial</h3>
+                <h3 className="destinaton-testimonial">Testimonial</h3>
                 <p className="top-destination">Client Testimonials</p>
             </div>
-            <div className="row card">
+            <div className="row card-main">
                 <div className="col span-1-of-3 card">
                     <div className="card-header">
                         <img src={testimone} alt="testimonial" className="testimonial-img"/>
