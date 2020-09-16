@@ -10,7 +10,7 @@ function Update() {
                 <p className="news-update">Get updates & more</p>
                 <div className="email">
                     <i className="fa fa-facebook email"></i>
-                    <input className="input-field" type="text"/>
+                    <input className="input-field" type="email"/>
 
                 </div>
             </div>

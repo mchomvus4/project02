@@ -25,7 +25,7 @@ function Team() {
                     <p className="sub-team-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                  <div className="col span-1-of-3">
-                    <h4><i className="fa fa-instagram social"></i>Exh4erienced Locator</h4>
+                    <h4><i className="fa fa-instagram social"></i>Experienced Locator</h4>
                     <p className="sub-team-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                  <div className="col span-1-of-3">

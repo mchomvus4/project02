@@ -1,0 +1,110 @@
+.design{
+    color: #ed5421;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 60px;
+    font-style: italic;
+    border-bottom: 1px solid #ed5421; 
+    
+    
+}
+.logo{
+    color: #fff;
+    position: absolute;
+    margin-top: 30px;
+   
+}
+.logo,
+.design{
+    float: left;
+ 
+   
+}
+
+.footer{
+    background-color: #000;
+    height: 350px;
+   
+}
+.footer-one{
+    font-size: 14px;
+    color: #fff;
+    padding-top: 40px;
+    margin-left: 20%;
+    text-align: justify;
+    line-height: 20px;
+}
+.logedesign-footer{
+    margin-left: 20%;
+    margin-top: -30px;
+}
+.company{
+    color: #fff;
+    font-size: 16px;
+    margin-left: 30px;   
+}
+
+.column-two{
+    color: #fff;
+    font-size: 14px;
+    padding-top: 15px;
+    margin-left: 30px;
+}
+
+.quick-links{
+    color: #fff;
+    font-size: 16px
+}
+.column-four{
+    color: #fff;
+    font-size: 14px;
+    padding-top: 15px;
+   
+}
+
+.connect-with-us{
+    color: #fff;
+    font-size: 16px;
+}
+.btn-subscribe{
+    color: #fff;
+    font-size: 16px;
+    padding-top: 50px;
+}
+input[type=text] {
+  width: 70%;
+  padding: 8px 20px;
+  margin-top: 10px;
+  
+  
+  box-sizing: border-box;
+}
+.column-five{
+     color: #fff;
+    font-size: 14px;
+    padding-top: 15px;
+}
+
+.travellers{
+    color: #fff;
+    font-size: 16px;
+    
+    
+}
+.column-three{
+    color: #fff;
+    font-size: 14px;
+    padding-top: 15px;
+   
+}
+.footer-button{
+    margin-top: 28%;
+    border-top: 1px solid #b5bdbf;
+    color: #fff;
+    opacity: .8;
+}
+.developer{
+   
+    margin-left: 28%;
+    padding-top: 60px;
+}
