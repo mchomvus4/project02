@@ -58,9 +58,7 @@ h1{
     margin-top: 30px;
     margin-left: 60px;
     font-style: italic;
-    border-bottom: 1px solid #ed5421;
-    
-    
+    border-bottom: 1px solid #ed5421; 
 }
 .logo{
     color: #fff;
@@ -104,4 +102,101 @@ h1{
     border-bottom: 2px solid #ed5421;
 
 
+}
+
+/*Big tablet to 1200px (widths smaller that the 1140px row)*/
+@media only screen and (max-width:1200px){
+  
+}
+/*small tablets to big tablets: from 768px to 1023px*/
+@media only screen and (max-width:1023px){
+  .travel{
+    color: #ed5421;
+    text-align: center;
+    margin-right:20%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+h1{
+    margin: 0;
+    color: #fff;
+    font-size: 150%;
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+.par-one{
+    color: #fff;
+    opacity: 0.4;
+    font-size: 16px;
+}
+.btn-btn-contact{
+    margin-top: 20px;
+    margin-left: 30%;
+    transition: background-color 0.4s, border 0.4s, color 0.4s;
+}
+     
+}
+
+
+
+/*small phones to small tablets: from 481px-767px*/
+@media only screen and (max-width:767px){
+.par-one{
+    color: #fff;
+    opacity: 0.4;
+    font-size: 20px;
+}
+}
+
+
+/*small phones from 0 to 480px*/
+@media only screen and (max-width:480px){
+
+    .main-nav{
+    float: right;
+    list-style: none;
+    margin-right: 10px;
+    
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-left: 8px;
+    font-size: 14px;
+}
+h1{
+    margin: 0;
+    color: #fff;
+    font-size: 100%;
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+.design{
+    color: #ed5421;
+    font-size: 20px;
+}
+.logo{
+    font-size: 20px;
+    margin-left: 10px;
+}
+h1{
+    margin-left: -30px; 
+}
+.par-one{
+    color: #fff;
+    opacity: 0.4;
+    font-size: 14px;
+}
+.btn-btn-contact{
+    margin-left: 20%;
+   
+}
+   
 }
