@@ -7,7 +7,7 @@ function Testimonial() {
         <section className="testimonial-section">
              <div className="row">
                 <h3 className="destinaton-testimonial">Testimonial</h3>
-                <p className="top-destination">Client Testimonials</p>
+                <p className="top-testimonial">Client Testimonials</p>
             </div>
             <div className="row card-main">
                 <div className="col span-1-of-3 card">
