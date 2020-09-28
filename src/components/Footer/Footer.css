@@ -22,8 +22,8 @@
 }
 
 .footer{
-    background-color: #000;
-    height: 350px;
+    background-color: #282622;
+    height: 380px;
    
 }
 .footer-one{
@@ -75,8 +75,6 @@ input[type=text] {
   width: 70%;
   padding: 8px 20px;
   margin-top: 10px;
-  
-  
   box-sizing: border-box;
 }
 .column-five{
@@ -98,7 +96,7 @@ input[type=text] {
    
 }
 .footer-button{
-    margin-top: 28%;
+    margin-top: 30%;
     border-top: 1px solid #b5bdbf;
     color: #fff;
     opacity: .8;
@@ -107,4 +105,106 @@ input[type=text] {
    
     margin-left: 28%;
     padding-top: 60px;
+}
+
+/*Big tablet to 1200px (widths smaller that the 1140px row)*/
+@media only screen and (max-width:1200px){
+  
+}
+
+/*small tablets to big tablets: from 768px to 1023px*/
+@media only screen and (max-width:1023px){
+.footer-one{
+    font-size: 14px;
+}
+.footer-button{
+    margin-top: 35%;
+    border-top: 1px solid #b5bdbf;
+    color: #fff;
+    opacity: .8;
+}
+.developer{
+    margin-left: 30px;
+}
+}
+
+/*small phones to small tablets: from 481px-767px*/
+@media only screen and (max-width:767px){
+.logo,
+.design{
+    font-size:16px;
+}
+.design{
+    margin-left: 40px;
+}
+.company,
+.travellers,
+.quick-links,
+.connect-with-us{
+    font-size: 12px;
+     
+}
+.footer-one{
+    font-size: 10px;
+    margin-top: -10px;
+}
+.footer-button{
+    margin-top: 45%; 
+}
+.column-two,
+.column-three,
+.column-four,
+.column-five{
+    font-size: 10px;
+}
+.developer{
+    font-size: 16px;
+}
+input[type=text] {
+  width: 90%;
+ 
+}
+}
+
+/*small phones from 0 to 480px*/
+@media only screen and (max-width:480px){
+.logo,
+.design{
+    font-size:10px;
+}
+
+.design{
+    margin-left: 50px;
+}
+.footer{
+    background-color: #282622;
+    height: 100%;
+   
+}
+.footer-button{
+    margin-top: 170%;
+    border-top: 1px solid #b5bdbf;
+    
+}
+.developer{
+    font-size: 14px;
+}
+.btn-subscribe{
+    margin-left: 30%;
+}
+
+.company,
+.travellers,
+.quick-links,
+.connect-with-us{
+   margin-left: 20%;
+     
+}
+.column-two,
+.column-three,
+.column-four,
+.column-five{
+    margin-left: 20%;
+}
+
 }

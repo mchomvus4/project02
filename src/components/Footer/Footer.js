@@ -42,12 +42,12 @@ function Footer() {
 
                 <div className="col span-1-of-5">
                     <h3 className="connect-with-us">CONNECT WITH US</h3> 
-                    <p className="column-five">if@support.com</p>
+                    <p className="column-five">info@support.com</p>
                     <p className="column-five">+255 758 139 619</p>
                     <p className="column-five">33318 Dar es Salaam</p>
                     <p className="btn-subscribe">SUBSCRIBE NOW</p>
                     <form>
-                        <input type="text"/>
+                        <input type="text" placeholder="Your Email"/>
                     </form>
                 </div>
                  <div className="footer-button">

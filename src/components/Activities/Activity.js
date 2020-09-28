@@ -8,8 +8,8 @@ function Activity() {
     return (
         <section>
             <div className="row">
-                <h3 className="destinaton">Activity</h3>
-                <p className="top-destination">Trending Activities</p>
+                <h3 className="activity">Activities</h3>
+                <p className="top-activity">Trending Activities</p>
             </div>
             <div className="row">
                 <div className="col span-1-of-3 bg-card">
@@ -20,7 +20,7 @@ function Activity() {
                         <p className="ipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                     <div className="booking">
-                      $250.0<span><a className="btn-btn-activity" href ="#booknow">Book now</a></span>
+                      <span className="price">$250.0</span><span><a className="btn-btn-activity" href ="#booknow">Book now</a></span>
                     </div>
                 </div>
 
@@ -32,7 +32,7 @@ function Activity() {
                          <p className="ipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                     <div className="booking">
-                      $250.0<span><a className="btn-btn-activity" href ="#booknow">Book now</a></span>
+                       <span className="price">$250.0</span><span><a className="btn-btn-activity" href ="#booknow">Book now</a></span>
                     </div>
                 </div>
 
@@ -44,7 +44,7 @@ function Activity() {
                          <p className="ipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                     <div className="booking">
-                      $250.0<span><a className="btn-btn-activity" href ="#booknow">Book now</a></span>
+                       <span className="price">$250.0</span><span><a className="btn-btn-activity" href ="#booknow">Book now</a></span>
                     </div>
                 </div>
             </div>

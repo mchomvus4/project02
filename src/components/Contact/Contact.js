@@ -25,14 +25,13 @@ class Contact extends Component {
                             <input type ="text" name="fname" id="name" placeholder="Full Name" required/>
                             </div>
                             <div>
-                            <input type ="text" name="username" id="name" placeholder="User Name" required/>
+                            <input type ="text" name="username" id="username" placeholder="User Name" required/>
                             </div>
                             <div>
-                            <input type ="text" name="number" id="name" placeholder="Phone Number" required/>
+                            <input type ="text" name="number" id="number" placeholder="Phone Number" required/>
                             </div>
                             <div>
-                                <textarea col="10" row="10" name="message" placeholder="Message"></textarea>
-                                <input type ="submit" value="SUBMIT"/>
+                               
                                 </div>
                             </div>
                             
@@ -40,7 +39,7 @@ class Contact extends Component {
                 </div>
 
                  <div className="col span-1-of-2">
-                    <img src={contact} alt="contact-form"/>
+                    <img src={contact} alt="contact-form" className="contact-img"/>
                 </div>
 
             </div>

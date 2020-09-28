@@ -1,3 +1,6 @@
+.section-update{
+  margin-top: 40px;
+}
 .updates{
     text-align: center;
     text-transform: uppercase;
@@ -19,6 +22,7 @@
     background-size: cover;
     background-position: center; 
     opacity: .8;
+    
 }
 input[type=email] {
   width: 40%;
@@ -34,4 +38,25 @@ input[type=email] {
 .email{
     color: #000;
    
+}
+
+
+/*Big tablet to 1200px (widths smaller that the 1140px row)*/
+@media only screen and (max-width:1200px){
+  
+}
+
+/*small tablets to big tablets: from 768px to 1023px*/
+@media only screen and (max-width:1023px){
+
+}
+
+/*small phones to small tablets: from 481px-767px*/
+@media only screen and (max-width:767px){
+
+}
+
+/*small phones from 0 to 480px*/
+@media only screen and (max-width:480px){
+
 }
