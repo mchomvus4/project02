@@ -31,8 +31,8 @@ class Contact extends Component {
                             <input type ="text" name="number" id="number" placeholder="Phone Number" required/>
                             </div>
                             <div>
-                               
-                                </div>
+                               <textarea cols="25" rows="5" placeholder="Message"></textarea>
+                             </div>
                             </div>
                             
                       </form>

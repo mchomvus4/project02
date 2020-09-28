@@ -8,7 +8,7 @@ function Footer() {
                     <h3 className="logedesign-footer"><span className="logo">LOGO</span>&nbsp;<span className="design">DESIGN</span></h3> 
                     <p className="footer-one">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </p>
                     
                 </div>
 
@@ -47,7 +47,7 @@ function Footer() {
                     <p className="column-five">33318 Dar es Salaam</p>
                     <p className="btn-subscribe">SUBSCRIBE NOW</p>
                     <form>
-                        <input type="text" placeholder="Your Email"/>
+                        <input type="text"  placeholder="Your Email"/>
                     </form>
                 </div>
                  <div className="footer-button">
