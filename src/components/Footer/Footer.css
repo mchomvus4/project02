@@ -106,11 +106,13 @@ input[type=text] {
 .footer-line{
     margin-top: 30%;
     border-top: 1px solid #fff;
+    
 }
 .developer{
    
     margin-left: 28%;
     padding-top: 60px;
+    color: #fff;
 }
 
 /*Big tablet to 1200px (widths smaller that the 1140px row)*/
