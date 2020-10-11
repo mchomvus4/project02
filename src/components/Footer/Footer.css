@@ -20,12 +20,12 @@
  
    
 }
-
-.footer{
-    background-color: #282622;
+.footer-section{
+background-color: #282622;
     height: 380px;
-   
+   width: 100%;
 }
+
 .footer-one{
     font-size: 14px;
     color: #fff;
@@ -176,7 +176,7 @@ input[type=text] {
 .design{
     margin-left: 50px;
 }
-.footer{
+.footer-section{
     background-color: #282622;
     height: 100%;
    

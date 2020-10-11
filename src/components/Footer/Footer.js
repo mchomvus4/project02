@@ -2,7 +2,7 @@ import React from 'react'
 import './Footer.css';
 function Footer() {
     return (
-        <section>
+        <section className="footer-section">
             <div className="row footer">
                 <div className="col span-1-of-5">
                     <h3 className="logedesign-footer"><span className="logo">LOGO</span>&nbsp;<span className="design">DESIGN</span></h3> 
