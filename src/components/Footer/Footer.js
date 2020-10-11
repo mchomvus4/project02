@@ -50,7 +50,7 @@ function Footer() {
                         <input type="text"  placeholder="Your Email"/>
                     </form>
                 </div>
-                 <div className="footer-button">
+                 <div className="footer-line">
                        <span className="developer">2020&copy;|Developed by Samwel Mchomvu from NOTTECH Lab</span> 
                 </div>
                

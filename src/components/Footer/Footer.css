@@ -95,12 +95,17 @@ input[type=text] {
     padding-top: 15px;
    
 }
-.footer-button{
+/* .footer-button{
     margin-top: 30%;
     border-top: 1px solid #b5bdbf;
     color: #fff;
     width: 100%;
     opacity: .8;
+} */
+
+.footer-line{
+    margin-top: 30%;
+    border-top: 1px solid #fff;
 }
 .developer{
    
