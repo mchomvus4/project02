@@ -72,7 +72,7 @@ background-color: #282622;
     padding-top: 50px;
 }
 input[type=text] {
-  width: 70%;
+  width: 90%;
   padding: 8px 20px;
   margin-top: 10px;
   box-sizing: border-box;
@@ -99,6 +99,7 @@ input[type=text] {
     margin-top: 30%;
     border-top: 1px solid #b5bdbf;
     color: #fff;
+    width: 100%;
     opacity: .8;
 }
 .developer{
