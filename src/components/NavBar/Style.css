@@ -154,7 +154,7 @@ h1{
 
 
 /*small phones from 0 to 480px*/
-@media only screen and (max-width:480px){
+@media only screen and (max-width:500px){
 
     .main-nav{
     float: right;
@@ -181,10 +181,11 @@ h1{
 .design{
     color: #ed5421;
     font-size: 15px;
+    
 }
 .logo{
     font-size: 15px;
-    margin-left: 28px;
+    margin-left: 4px;
 }
 h1{
     margin-left: -40px; 
@@ -198,6 +199,9 @@ h1{
 .btn-btn-contact{
     margin-left: 16%;
    
+}
+.travel{
+    margin-top: -60px;
 }
    
 }

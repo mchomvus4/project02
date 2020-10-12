@@ -10,7 +10,7 @@
     font-size: 20px;
     font-style: italic; 
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .bg-ipsum{
@@ -112,7 +112,7 @@
 }
 
 /*small phones from 0 to 480px*/
-@media only screen and (max-width:480px){
+@media only screen and (max-width:500px){
 .btn-btn-readmore:link,
 .btn-btn-readmore:visited{
     margin-left: 0px; 
@@ -121,5 +121,22 @@
 }
 .sub-team{
     margin-top: -1px;
+}
+.sub-team-content{
+    font-size: 10px;
+}
+.guide,.locator,.client{
+    font-size: 10px;
+}
+.lorem-content{
+    font-size: 10px;
+    margin-top: -6px;
+    line-height: 12px;
+}
+.sub-team{
+    margin-top: -10px;
+}
+.btn-btn-readmore{
+    font-size: 12px;
 }
 }

@@ -16,21 +16,21 @@ function Team() {
                
                 </div>
                 <div className="col span-1-of-2">
-                    <p className="lorem-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam accumsan quis orci in sagittis. Ut dolor mauris, tempus quis vestibulum non, feugiat non ipsum. Mauris euismod vulputate neque sit amet lobortis. Vivamus scelerisque at tellus dictum consectetur. Etiam suscipit vehicula tortor et aliquet. Etiam dapibus, est sit amet mollis pellentesque, risus ipsum commodo quam, non luctus arcu risus eleifend justo. Morbi bibendum dictum ipsum ut pulvinar.</p>
+                    <p className="lorem-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam accumsan quis orci in sagittis. Ut dolor mauris, tempus quis vestibulum non, feugiat non ipsum. Mauris euismod vulputate neque sit amet lobortis. Vivamus scelerisque at tellus dictum consectetur. Etiam suscipit vehicula tortor et aliquet.</p>
                       <a className="btn-btn-readmore" href ="#readmore">ReadMore</a>
                 </div>
             </div>
             <div className="row sub-team">
                 <div className="col span-1-of-3">
-                    <h4><i className="fa fa-twitter social"></i>1000+ Local Guide</h4>
+                    <h4><i className="fa fa-twitter social "></i><span className="guide">1000+ Local Guide</span></h4>
                     <p className="sub-team-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                  <div className="col span-1-of-3">
-                    <h4><i className="fa fa-instagram social"></i>Experienced Locator</h4>
+                    <h4><i className="fa fa-instagram social"></i><span className="locator">Experienced Locator</span></h4>
                     <p className="sub-team-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                  <div className="col span-1-of-3">
-                    <h4><i className="fa fa-facebook-f social"></i>96% Happy Clients</h4>
+                    <h4><i className="fa fa-facebook-f social"></i><span className="client">96% Happy Clients</span></h4>
                     <p className="sub-team-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
             </div>
