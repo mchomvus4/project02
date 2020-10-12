@@ -52,7 +52,7 @@
 .social{
     color: #e67e22;
     margin-right: 10px;
-    font-size: 60px;
+    
 }
 .sub-team-content{
     margin-left: 30px;
@@ -125,7 +125,9 @@
 .sub-team-content{
     font-size: 10px;
 }
-.guide,.locator,.client{
+.guide,
+.locator,
+.client{
     font-size: 10px;
 }
 .lorem-content{
