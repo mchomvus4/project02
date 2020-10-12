@@ -155,7 +155,7 @@ input[type=text] {
      
 }
 .footer-one{
-    font-size: 8px;
+    font-size: 14px;
     margin-top: -10px;
 }
 .footer-button{
@@ -165,13 +165,14 @@ input[type=text] {
 .column-three,
 .column-four,
 .column-five{
-    font-size: 10px;
+    font-size: 12px;
 }
 .column-career{
     font-size: 10px; 
 }
 .developer{
     font-size: 16px;
+    margin-left: 20%;
 }
 input[type=text] {
   width: 90%;
@@ -223,7 +224,7 @@ font-size: 10px;
 }
 .column-career{
     color: #ed5421;
-     margin-left: 30%;
+    margin-left: 30%;
     font-size: 10px;
 }
 

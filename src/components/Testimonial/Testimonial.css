@@ -66,9 +66,6 @@
     background-color:#f5f0f0;
     margin-top: 40px;
     padding-bottom: 40px;
-    
-    
-
 }
 /*Big tablet to 1200px (widths smaller that the 1140px row)*/
 @media only screen and (max-width:1200px){
@@ -88,10 +85,20 @@
 @media only screen and (max-width:767px){
 .name{
       font-size: 10px;
+     
   }
   .star{
       font-size: 20px;
+      
   }
+    .name,
+    .star{
+        margin-top: -30px;
+    }
+    .card-main{
+        width: 90%;
+    }
+    
 }
 
 /*small phones from 0 to 480px*/
