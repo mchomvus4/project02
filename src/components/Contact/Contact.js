@@ -19,7 +19,7 @@ class Contact extends Component {
             </div>
             <div className="row contacts">
                 <div className="col span-1-of-2">
-                        <form>
+                        <form className="myform">
                             <div className="contact-form">
                             <div>
                             <input type ="text" name="fname" id="name" placeholder="Full Name" required/>
@@ -31,8 +31,9 @@ class Contact extends Component {
                             <input type ="text" name="number" id="number" placeholder="Phone Number" required/>
                             </div>
                             <div>
-                               <textarea cols="25" rows="5" placeholder="Message"></textarea>
-                             </div>
+                               <textarea cols="26" rows="5" placeholder="Message"></textarea>
+                                </div>
+                                <button className="btn-submit">SUBMIT</button>
                             </div>
                             
                       </form>
