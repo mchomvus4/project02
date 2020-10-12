@@ -14,7 +14,7 @@ function Footer() {
 
                 <div className="col span-1-of-5 camp-column">
                     <h3 className="company">COMPANY</h3> 
-                    <p className="column-two">Career</p>
+                    <p className="column-career">Career</p>
                     <p className="column-two">About Us</p>
                     <p className="column-two">Blog</p>
                     <p className="column-two">Press info</p>

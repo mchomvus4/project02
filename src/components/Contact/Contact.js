@@ -17,7 +17,7 @@ class Contact extends Component {
                 <h3 className="contact-header">Contact</h3>
                 <p className="contact-sub">Contact Us</p>
             </div>
-            <div className="row">
+            <div className="row contacts">
                 <div className="col span-1-of-2">
                         <form>
                             <div className="contact-form">

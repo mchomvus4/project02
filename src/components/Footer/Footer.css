@@ -50,7 +50,12 @@ background-color: #282622;
     padding-top: 15px;
     margin-left: 30px;
 }
-
+.column-career{
+    color: #ed5421;
+    font-size: 14px;
+    padding-top: 15px;
+    margin-left: 30px;
+}
 .quick-links{
     color: #fff;
     font-size: 16px
@@ -95,14 +100,10 @@ input[type=text] {
     padding-top: 15px;
    
 }
-/* .footer-button{
-    margin-top: 30%;
-    border-top: 1px solid #b5bdbf;
-    color: #fff;
-    width: 100%;
-    opacity: .8;
-} */
 
+.footer-section{
+    height: 100%;
+}
 .footer-line{
     margin-top: 30%;
     border-top: 1px solid #fff;
@@ -117,6 +118,7 @@ input[type=text] {
 
 /*Big tablet to 1200px (widths smaller that the 1140px row)*/
 @media only screen and (max-width:1200px){
+   
   
 }
 
@@ -125,7 +127,7 @@ input[type=text] {
 .footer-one{
     font-size: 14px;
 }
-.footer-button{
+.footer-line{
     margin-top: 35%;
     border-top: 1px solid #b5bdbf;
     color: #fff;
@@ -159,11 +161,14 @@ input[type=text] {
 .footer-button{
     margin-top: 45%; 
 }
-.column-two,
+
 .column-three,
 .column-four,
 .column-five{
     font-size: 10px;
+}
+.column-career{
+    font-size: 10px; 
 }
 .developer{
     font-size: 16px;
@@ -175,22 +180,25 @@ input[type=text] {
 }
 
 /*small phones from 0 to 480px*/
-@media only screen and (max-width:480px){
+@media only screen and (max-width:500px){
 .logo,
 .design{
     font-size:10px;
 }
 
 .design{
-    margin-left: 50px;
+    margin-left: 25px;
 }
 .footer-section{
     background-color: #282622;
-    height: 100%;
-   
+    height: 80%; 
+    
+}
+.footer-one{
+    font-size: 10px;
 }
 .footer-line{
-    margin-top: 170%;
+    margin-top: 60%;
     border-top: 1px solid #b5bdbf;
     
 }
@@ -198,21 +206,30 @@ input[type=text] {
     font-size: 14px;
 }
 .btn-subscribe{
-    margin-left: 30%;
+font-size: 10px;
+   
 }
-
 .company,
 .travellers,
 .quick-links,
 .connect-with-us{
-   margin-left: 20%;
-     
+   margin-left: 20%;    
 }
-.column-two,
+
 .column-three,
 .column-four,
 .column-five{
-    margin-left: 20%;
+    margin-left: 20%; 
+}
+.column-career{
+    color: #ed5421;
+     margin-left: 30%;
+    font-size: 10px;
+}
+
+input[type=text] {
+  width: 100%;
+ 
 }
 
 }

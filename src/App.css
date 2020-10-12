@@ -10,8 +10,10 @@ html{
     font-family:'Lato' Arial, Helvetica, sans-serif;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+  
 }
 .row{
-    max-width: 1140px;
+    max-width: 1400px;
     margin: 0 auto;
 }
+
