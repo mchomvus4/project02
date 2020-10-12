@@ -81,7 +81,7 @@
 }
 
 /*small phones from 0 to 480px*/
-@media only screen and (max-width:480px){
+@media only screen and (max-width:500px){
 .activities-img{
    margin-top: 10px;
 }
@@ -90,6 +90,15 @@
          padding: 8px 8px; 
          font-size: 10px;
          position: absolute;
-         margin-left: 75%;     
+         margin-left: 3%;     
+}
+.card-section{
+    margin: 10%;
+}
+.activity-place{
+    font-size: 10px;
+}
+.lorem-page{
+    font-size: 10px;
 }
 }

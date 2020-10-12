@@ -11,11 +11,11 @@ function Activity() {
                 <h3 className="activity">Activities</h3>
                 <p className="top-activity">Trending Activities</p>
             </div>
-            <div className="row">
+            <div className="row card-section">
                 <div className="col span-1-of-3 bg-card">
                     <img src={activity01} alt="activity01" className="activities-img" />
                     <div>
-                        <p className="activity-place">Alaska, Nouth AMERICA</p>
+                        <p className="activity-place">Alaska AMERICA</p>
                         <p className="lorem-page">There are many variations of passages of Lorem </p>
                         <p className="ipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
@@ -27,7 +27,7 @@ function Activity() {
                 <div className="col span-1-of-3 bg-card">
                     <img src={activity02} alt="activity02" className="activities-img" />
                     <div>
-                        <p className="activity-place">Marangu Waterfall, TANZANIA</p>
+                        <p className="activity-place">Marangu TANZANIA</p>
                         <p className="lorem-page">There are many variations of passages of Lorem </p>
                          <p className="ipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
