@@ -77,6 +77,24 @@
          position: absolute;
          margin-left: 16%;     
 }
+    .activities-img{
+         margin-top: 0px;
+}
+    .card-section{
+        margin: 8%;
+        margin-top: 0px;
+        
+    }
+     .bg-card{
+        box-shadow: 0 2px 30px rgba(0, 0,0, .8);
+        padding-bottom: 9px;
+    }
+       .btn-btn-activity{
+         padding: 10px 8px; 
+         font-size: 10px;
+         position: absolute;
+         margin-left: 12.2%;     
+}
 
 }
 
