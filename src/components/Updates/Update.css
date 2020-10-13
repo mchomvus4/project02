@@ -25,15 +25,12 @@
     opacity: .8;
     
 }
-input[type=email] {
-  width: 70%;
-  padding: 12px 20px;
-  margin-top: 10px;
-  margin-left: 10%;
-  box-sizing: border-box;
- 
+   input[type=email] {
+      width: 30%;
+      padding: 12px 20px;
+      margin-top: 10px;
+      margin-left: 35%;
 }
-
 .email{
     color: #000;
    

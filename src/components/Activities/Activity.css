@@ -44,8 +44,19 @@
 /*Big tablet to 1200px (widths smaller that the 1140px row)*/
 @media only screen and (max-width:1200px){
   .btn-btn-activity{
-    padding: 10px 20px;   
+    padding: 10px 20px;  
+    margin-left: 137px;  
 }
+   .card-section{
+            margin: 8%;
+            margin-top: 0px;
+    }
+        .bg-card{
+            box-shadow: 0 2px 30px rgba(0, 0,0, .8);
+            padding-bottom: 20px;
+    }
+   
+
 }
 
 /*small tablets to big tablets: from 768px to 1023px*/
