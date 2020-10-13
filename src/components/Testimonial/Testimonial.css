@@ -69,9 +69,17 @@
 }
 /*Big tablet to 1200px (widths smaller that the 1140px row)*/
 @media only screen and (max-width:1200px){
-  .name{
+    .name{
       font-size: 16px;
   }
+    .name,
+    .star{
+        margin-top: -30px;
+    }
+
+      .card-main{
+        width: 90%;
+    }
 }
 
 /*small tablets to big tablets: from 768px to 1023px*/
