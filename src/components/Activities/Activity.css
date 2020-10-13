@@ -17,17 +17,24 @@
     width: 100%;
 }
 .bg-card{
-    background-color: #fff;
+    box-shadow: 0 2px 30px rgba(0, 0,0, .8);
+    padding-bottom: 20px;
     
 }
+.card-section{
+            margin: 8%;
+            margin-top: 0px;
+    }
 .btn-btn-activity{
-    display: inline-block;
+   
     padding: 10px 30px;
     text-decoration: none;
     background-color: #e67e22;
     color: #fff;
-    margin-left: 15.5%;
+    margin-left: 10.7%;
     position: absolute;
+    
+    
     
 }
 .booking{
