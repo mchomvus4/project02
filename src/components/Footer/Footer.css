@@ -134,7 +134,7 @@ input[type=text] {
     opacity: .8;
 }
 .developer{
-    margin-left: 30px;
+    margin-left: 25%;
 }
 }
 
@@ -205,6 +205,7 @@ input[type=text] {
 }
 .developer{
     font-size: 14px;
+    
 }
 .btn-subscribe{
 font-size: 10px;

@@ -47,7 +47,15 @@ input[type=email] {
 
 /*small tablets to big tablets: from 768px to 1023px*/
 @media only screen and (max-width:1023px){
-
+ 
+  input[type=email] {
+      width: 40%;
+      padding: 12px 20px;
+      margin-top: 10px;
+      margin-left: 30%;
+      
+ 
+}
 
 }
 
@@ -61,7 +69,7 @@ input[type=email] {
   padding: 12px 20px;
   margin-top: 10px;
   margin-left: 25%;
-  box-sizing: border-box;
+
  
 }
 }
