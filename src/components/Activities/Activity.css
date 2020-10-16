@@ -2,65 +2,114 @@
     text-align: center;
     text-transform: uppercase;
     color:  #e67e22;
-    margin-top: 20px;
-    font-size: 15px;
+    margin-top: 2rem;
+    font-size: 1.5re;
 }
 .top-activity{
     text-align: center;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 2rem;
     font-style: italic;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 .activities-img{
     width: 100%;
 }
 .bg-card{
-    box-shadow: 0 2px 30px rgba(0, 0,0, .8);
-    padding-bottom: 20px;
+    /* box-shadow: 0 0.2rem 3rem rgba(0, 0,0, .8); */
+    padding-bottom: 2rem;
     
 }
 .card-section{
             margin: 8%;
-            margin-top: 0px;
+            margin-top: 0rem;
     }
 .btn-btn-activity{
    
-    padding: 10px 30px;
+    padding: 1rem 3rem;
     text-decoration: none;
     background-color: #e67e22;
     color: #fff;
     margin-left: 10.7%;
-    position: absolute;
-    
-    
     
 }
 .booking{
-    border-top: 1px solid #dcdde1; 
+    border-top: 0.1rem solid #4d4e50; 
+    
 }
 .lorem-page{
-    font-size: 16px;
+    font-size: 1.6rem;
      font-weight: 600;
 }
 .ipsum{
-   font-size: 14px;
+   font-size: 1.4rem;
+}
+
+@media only screen and (min-width:2000px){
+
+    .section-activities{
+        margin-top: 4rem;
+    }
+    .activity{
+        font-size:3rem;
+    }
+    .top-activity{
+        font-size: 4rem;
+    }
+    .bg-card{
+        box-shadow: 0 0.08rem 3rem rgba(0, 0,0, .1);
+    }
+    .icon-map{
+        color: #e67e22;
+        font-size: 2rem;
+        padding-left: 2rem;
+    }
+    .activity-place{
+        font-size: 1.5rem;
+        
+    }
+    .mimi{
+        padding-left: 1rem;
+    }
+    .lorem-page{
+        padding-left: 1.9rem;
+        
+    }
+    .ipsum{
+        padding-left: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+        line-height: 2rem;
+    }
+    .price{
+        font-size: 2.3rem;
+        padding-left: 3rem;
+    }
+ 
+    .btn-btn-activity{
+        font-size: 1.5rem;
+        margin-left: 5.1rem;
+        padding: 1rem 3rem;
+        
+    }
+
+
 }
 
 /*Big tablet to 1200px (widths smaller that the 1140px row)*/
 @media only screen and (max-width:1200px){
   .btn-btn-activity{
-    padding: 10px 20px;  
-    margin-left: 137px;  
+    padding: 1rem 2rem;  
+    margin-left: 13.7rem;  
 }
    .card-section{
             margin: 8%;
-            margin-top: 0px;
+            margin-top: 0rem;
     }
         .bg-card{
-            box-shadow: 0 2px 30px rgba(0, 0,0, .8);
-            padding-bottom: 20px;
+            /* box-shadow: 0 0.2rem 3rem rgba(0, 0,0, .8); */
+            padding-bottom: 2rem;
     }
    
 
@@ -69,17 +118,17 @@
 /*small tablets to big tablets: from 768px to 1023px*/
 @media only screen and (max-width:1023px){
          .btn-btn-activity{
-            padding: 9px 8px; 
-            font-size: 12px;
-            margin-left: 141px; 
+            padding: 0.9rem 0.8rem; 
+            font-size: 1.2rem;
+            margin-left: 14.1rem; 
 }
         .card-section{
             margin: 8%;
-            margin-top: 0px;
+            margin-top: 0rem;
     }
         .bg-card{
-            box-shadow: 0 2px 30px rgba(0, 0,0, .8);
-            padding-bottom: 9px;
+            /* box-shadow: 0 0.2rem 3rem rgba(0, 0,0, .8); */
+            padding-bottom: 0.9rem;
     }
 
 
@@ -88,34 +137,33 @@
 /*small phones to small tablets: from 481px-767px*/
 @media only screen and (max-width:767px){
     .activity-place{
-        font-size: 16px;
+        font-size: 1.6rem;
     }
     .lorem-page{
-        font-size: 12px;
+        font-size: 1.2rem;
     }
     .ipsum{
-        font-size: 10px;
+        font-size: 1rem;
     }
     .price{
-        font-size: 16px;
+        font-size: 1.6rem;
     }
 
     .activities-img{
-         margin-top: 0px;
+         margin-top: 0rem;
 }
     .card-section{
         margin: 8%;
-        margin-top: 0px;
+        margin-top: 0rem;
         
     }
      .bg-card{
-        box-shadow: 0 2px 30px rgba(0, 0,0, .8);
-        padding-bottom: 9px;
+        /* box-shadow: 0 0.2rem 3rem rgba(0, 0,0, .8); */
+        padding-bottom: 0.9rem;
     }
        .btn-btn-activity{
-         padding: 10px 8px; 
-         font-size: 10px;
-         position: absolute;
+         padding: 1rem 0.8rem; 
+         font-size: 1rem;
          margin-left: 12.2%;     
 }
 
@@ -124,30 +172,29 @@
 /*small phones from 0 to 480px*/
 @media only screen and (max-width:500px){
 .activities-img{
-   margin-top: 10px;
+   margin-top: 1rem;
 }
 
    .btn-btn-activity{
-         padding: 6px 8px; 
-         font-size: 10px;
-         position: absolute;
+         padding: 0.6rem 0.8rem; 
+         font-size: 1rem;
          margin-left: 3%;     
 }
     .card-section{
         margin: 10%;
-        margin-top: 0px;
+        margin-top: 0rem;
         
     }
     .activity-place{
-        font-size: 10px;
+        font-size: 1rem;
     }
     .lorem-page{
-        font-size: 10px;
+        font-size: 1rem;
     }
     .bg-card{
-        box-shadow: 0 2px 30px rgba(0, 0,0, .8);
+        /* box-shadow: 0 0.2rem 3rem rgba(0, 0,0, .8); */
     }
     .activities-img{
-    margin-top: 0px;
+    margin-top: 0rem;
 }
 }

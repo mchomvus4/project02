@@ -30,12 +30,29 @@
       padding: 12px 20px;
       margin-top: 10px;
       margin-left: 35%;
+     
 }
 .email{
     color: #000;
    
 }
+.input-icons i{
+  position: absolute;
+  
+}
 
+.icon{
+  margin-left: -60px;
+  color: #e67e22;
+  padding-top: 3px;
+  border-radius: 3px;
+}
+
+.input-field{
+  padding: 10px;
+  height: 50px;
+  text-align: center;
+}
 
 /*Big tablet to 1200px (widths smaller that the 1140px row)*/
 @media only screen and (max-width:1200px){

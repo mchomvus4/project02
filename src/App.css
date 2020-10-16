@@ -1,19 +1,11 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html{
-    background-color: #fff;
-    color: #555;
-    font-weight: 300;
-    font-family:'Lato' Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    text-rendering: optimizeLegibility;
-  
-}
+
 .row{
     max-width: 1400px;
     margin: 0 auto;
-}
+} */
 

@@ -5,7 +5,7 @@ function Footer() {
         <section className="footer-section">
             <div className="row footer">
                 <div className="col span-1-of-5">
-                    <h3 className="logedesign-footer"><span className="logo">LOGO</span>&nbsp;<span className="design">DESIGN</span></h3> 
+                    <h3 className="logedesign-footer"><span className="logofooter">LOGO</span>&nbsp;<span className="designfooter">DESIGN</span></h3> 
                     <p className="footer-one">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                         </p>

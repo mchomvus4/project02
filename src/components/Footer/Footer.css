@@ -1,4 +1,4 @@
-.design{
+.designfooter{
     color: #ed5421;
     position: absolute;
     margin-top: 30px;
@@ -8,14 +8,14 @@
     
     
 }
-.logo{
+.logofooter{
     color: #fff;
     position: absolute;
     margin-top: 30px;
    
 }
-.logo,
-.design{
+.logofooter,
+.designfooter{
     float: left;
  
    
@@ -116,6 +116,10 @@ input[type=text] {
     color: #fff;
 }
 
+@media only screen and (min-width:2000px){
+
+
+}
 /*Big tablet to 1200px (widths smaller that the 1140px row)*/
 @media only screen and (max-width:1200px){
    
@@ -140,11 +144,11 @@ input[type=text] {
 
 /*small phones to small tablets: from 481px-767px*/
 @media only screen and (max-width:767px){
-.logo,
-.design{
+.logofooter,
+.designfooter{
     font-size:16px;
 }
-.design{
+.designfooter{
     margin-left: 40px;
 }
 .company,
@@ -182,12 +186,12 @@ input[type=text] {
 
 /*small phones from 0 to 480px*/
 @media only screen and (max-width:500px){
-.logo,
-.design{
+.logofooter,
+.designfooter{
     font-size:10px;
 }
 
-.design{
+.designfooter{
     margin-left: 25px;
 }
 .footer-section{
