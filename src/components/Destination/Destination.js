@@ -13,8 +13,9 @@ function Destination() {
             </div>
             <div className="row bg-images">
                 <div className="col span-1-of-4 image">
-                    <img src={image2} alt="second" className="second" />
                     
+                    <img src={image2} alt="second" className="second"  />
+                    {/* <p className="places"><i className="fa fa-map-marker icon-image"></i><span className="mimi-map">Alaska AMERICA</span> </p> */}
                   
                 </div>
 

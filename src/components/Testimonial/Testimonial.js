@@ -1,6 +1,5 @@
 import React from 'react'
 import './Testimonial.css';
-// import '../Grid.css';
 import testimone from '../images/sam.png';
 function Testimonial() {
     return (

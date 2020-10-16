@@ -1,16 +1,16 @@
 .section-update{
-  margin-top: 40px;
+  margin-top: 4rem;
 }
 .updates{
     text-align: center;
     text-transform: uppercase;
     color:  #e67e22;
-    font-size: 15px;
+    font-size: 1.5rem;
 }
 .news-update{
     text-align: center;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 2rem;
     font-style: italic;
     font-weight: bold;
     color: #fff;
@@ -19,7 +19,7 @@
     background-image: url("../images/sea.jpg");
     height: 100vh;
     background-repeat: no-repeat;
-    height: 150px;
+    height: 15rem;
     background-size: cover;
     background-position: center; 
     opacity: .8;
@@ -27,8 +27,8 @@
 }
    input[type=email] {
       width: 30%;
-      padding: 12px 20px;
-      margin-top: 10px;
+      padding: 1.2rem 2rem;
+      margin-top: 1rem;
       margin-left: 35%;
      
 }
@@ -42,24 +42,45 @@
 }
 
 .icon{
-  margin-left: -60px;
+  margin-left: -6rem;
   color: #e67e22;
-  padding-top: 3px;
-  border-radius: 3px;
+  padding-top: 0.3rem;
+  border-radius: 0.3rem;
 }
 
 .input-field{
-  padding: 10px;
-  height: 50px;
-  text-align: center;
+  padding: 1rem;
+  height: 5rem;
+  text-align: left;
 }
-
+@media only screen and (min-width:2000px){
+  .section-update{
+    margin-top: 0rem;
+  }
+  .updates{
+    font-size: 2rem;
+    padding-top: 3rem;
+  }
+  .news-update{
+    font-size: 3rem;
+  }
+  .news-letter{
+    height: 20rem;
+  }
+  .icon{
+    font-size: 6rem;
+  }
+  .input-field{
+    font-size: 2rem;
+  }
+ 
+}
 /*Big tablet to 1200px (widths smaller that the 1140px row)*/
 @media only screen and (max-width:1200px){
    input[type=email] {
       width: 30%;
-      padding: 12px 20px;
-      margin-top: 10px;
+      padding: 1.2rem 2rem;
+      margin-top: 1rem;
       margin-left: 35%;
 }
   
@@ -70,8 +91,8 @@
  
   input[type=email] {
       width: 40%;
-      padding: 12px 20px;
-      margin-top: 10px;
+      padding: 1.2rem 2rem;
+      margin-top: 1rem;
       margin-left: 30%;
 }
 
@@ -84,8 +105,8 @@
   }
   input[type=email] {
   width: 50%;
-  padding: 12px 20px;
-  margin-top: 10px;
+  padding: 1.2rem 2rem;
+  margin-top: 1rem;
   margin-left: 25%;
 
  

@@ -2,61 +2,61 @@
     text-align: center;
     text-transform: uppercase;
     color:  #e67e22;
-    padding-top: 20px;
-    margin-top: 22px;
-    font-size: 15px;
+    padding-top: 2rem;
+    margin-top: 2.2rem;
+    font-size: 1.5rem;
 }
 .top-testimonial{
     text-align: center;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 2rem;
     font-style: italic;
     font-weight: bold;
-    padding-bottom: 20px;
+    padding-bottom: 2rem;
 }
 .card{
     background-color: #fff;
-    margin-top: 70px;
-    box-shadow: 0 3px 30px rgba(0, 0,0, .8);
-    border-radius: 6px;
+    margin-top: 7rem;
+    /* box-shadow: 0 0.3rem 3rem rgba(0, 0,0, .8); */
+    border-radius: 0.6rem;
    
 }
 .card-header{
     position: relative;
-    height: 120px;
+    height: 12rem;
    
 }
 .testimonial-img{
-    width: 96px;
-    height: 96px;
-    border-radius: 100px;
+    width: 9.6rem;
+    height: 9.6rem;
+    border-radius: 10rem;
     align-items: center;
-    margin-left: 0px;
+    margin-left: 0rem;
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 .testimone-page{
-    font-size: 12px;
+    font-size: 1.2rem;
     text-align: center;
-    margin-bottom: 30px;
-    margin-top: -40px;
+    margin-bottom: 3rem;
+    margin-top: -4rem;
     position: relative;
 }
 .card-footer{
-    border-top: 1px solid #8f8781;
-    padding-top: 40px;
+    border-top: 0.1rem solid #8f8781;
+    padding-top: 4rem;
 }
 .star{
     color: #e67e22;
-    font-size: 30px;
+    font-size: 3rem;
     position: absolute;
-    margin-top: -30px;
+    margin-top: -3rem;
 }
 .name{
-    margin-top: -30px;
+    margin-top: -3rem;
     margin-left: 40%;
-    font-size: 17px;
+    font-size: 1.7rem;
     
 }
 .card-main{
@@ -64,17 +64,46 @@
 }
 .testimonial-section{
     background-color:#f5f0f0;
-    margin-top: 40px;
-    padding-bottom: 40px;
+    margin-top: 4rem;
+    padding-bottom: 4rem;
+}
+@media only screen and (min-width:2000px){
+    .card-main{
+    width: 70%;
+}
+    .destinaton-testimonial{
+        font-size: 3rem;
+    }
+    .top-testimonial{
+        font-size: 4rem;;
+    }
+    .card-main{
+        margin-left: 15%;
+    }
+ .card{
+      box-shadow: 0 0.3rem 3rem rgba(0, 0,0, .2);
+    }
+    .star{
+        padding-left: 2rem;
+    }
+    .name{
+        padding-left: 2rem;
+        font-size: 1.2rem;
+        padding-top: 0.6rem;
+    }
+    .testimone-page{
+        line-height: 2rem;
+    }
+
 }
 /*Big tablet to 1200px (widths smaller that the 1140px row)*/
 @media only screen and (max-width:1200px){
     .name{
-      font-size: 16px;
+      font-size: 1.6rem;
   }
     .name,
     .star{
-        margin-top: -30px;
+        margin-top: -3rem;
     }
 
       .card-main{
@@ -85,11 +114,11 @@
 /*small tablets to big tablets: from 768px to 1023px*/
 @media only screen and (max-width:1023px){
     .name{
-      font-size: 14px;
+      font-size: 1.4rem;
   }
    .name,
     .star{
-        margin-top: -30px;
+        margin-top: -3rem;
     }
 
       .card-main{
@@ -101,16 +130,16 @@
 /*small phones to small tablets: from 481px-767px*/
 @media only screen and (max-width:767px){
     .name{
-      font-size: 10px;
+      font-size: 1rem;
      
   }
     .star{
-      font-size: 20px;
+      font-size: 2rem;
       
   }
     .name,
     .star{
-        margin-top: -30px;
+        margin-top: -3rem;
     }
     .card-main{
         width: 90%;
@@ -121,19 +150,19 @@
 /*small phones from 0 to 480px*/
 @media only screen and (max-width:500px){
 .testimone-page{
-    font-size: 8px;
+    font-size: 0.8rem;
 }
 .card-main{
    width: 90%;
 }
 .star{
-    font-size: 14px;
+    font-size: 1.4rem;
     position: absolute;
-    margin-top: -30px;
+    margin-top: -3rem;
 }
 .name{
-    margin-top: -30px;
+    margin-top: -3rem;
     margin-left: 40%;
-    font-size: 8px;
+    font-size: 0.8rem;
 }
 }

@@ -2,27 +2,27 @@
     text-align: center;
     text-transform: uppercase;
     color:  #e67e22;
-    padding-top: 50px;
-    margin-top: -22px;
-    font-size: 15px;
+    padding-top: 5rem;
+    margin-top: -2.2rem;
+    font-size: 1.5rem;
 }
 .contact-sub{
     text-align: center;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 2rem;
     font-style: italic;
     font-weight: bold;
-    padding-bottom: 20px;
+    padding-bottom: 2rem;
 }
 .contact-form{
-    margin: 0px 100px;
+    margin: 0rem 10rem;
     width: 100%;
 }
 
 .contact-img{
     margin-left: 20%;
-    height: 160px;
-    width: 250px;
+    height: 16rem;
+    width: 25rem;
 
 }
 
@@ -31,34 +31,65 @@
             border: none;    
 }
          textarea{
-            margin-top: 10px;
+            margin-top: 1rem;
             background-color: #edebe5;
             border: none;
             padding-right: 51%;
-            padding-bottom: 70px;
+            padding-bottom: 7rem;
 }
         textarea[placeholder]{
-            padding-left: 20px;
+            padding-left: 2rem;
    }
         .btn-submit{
             display: inline-block;
-            padding: 10px 30px;
+            padding: 1rem 3rem;
             text-decoration: none;
             background-color: #e67e22;
             color: #fff;
             border: none;
             margin-left: 72%;
             cursor: pointer;
-            margin-top: 10px;
+            margin-top: 1rem;
 }
         .contact-img{
             margin-left: 6%;
-            height: 300px;
-            width: 420px;
-            margin-top: 10px;
+            height: 30rem;
+            width: 42rem;
+            margin-top: 1rem;
 }
 
+@media only screen and (min-width:2000px){
+    .contact-header{
+        font-size: 2rem;
+        margin-top: 3rem;
+    }
 
+    .contact-sub{
+        font-size: 3rem;
+    }
+    input[type=text] {
+        font-size: 1rem;
+        height: 3.5rem;
+        
+    }
+    .contact-img{
+        margin-top: 0rem;
+        height: 32rem;
+        padding-left: 2rem;
+    }
+    textarea{
+        padding-right: 21rem;
+        
+    }
+     .btn-submit{
+         font-size: 2rem;
+          margin-left: 34rem
+     }
+     textarea[placeholder]{
+         font-size: 2rem;
+         padding-left: 1rem;
+     }
+}
 /*Big tablet to 1200px (widths smaller that the 1140px row)*/
 @media only screen and (max-width:1200px){
     input[type=text] {
@@ -66,31 +97,31 @@
             border: none;    
 }
          textarea{
-            margin-top: 10px;
+            margin-top: 1rem;
             background-color: #edebe5;
             border: none;
             padding-right: 49%;
-            padding-bottom: 60px;
+            padding-bottom: 6rem;
 }
         textarea[placeholder]{
-            padding-left: 20px;
+            padding-left: 2rem;
    }
         .btn-submit{
             display: inline-block;
-            padding: 10px 30px;
+            padding: 1rem 3rem;
             text-decoration: none;
             background-color: #e67e22;
             color: #fff;
             border: none;
             margin-left: 72%;
             cursor: pointer;
-            margin-top: 10px;
+            margin-top: 1rem;
 }
         .contact-img{
             margin-left: 6%;
-            height: 280px;
-            width: 380px;
-            margin-top: 10px;
+            height: 28rem;
+            width: 38rem;
+            margin-top: 1rem;
 }
 
   
@@ -105,31 +136,31 @@
             
 }
          textarea{
-            margin-top: 10px;
+            margin-top: 1rem;
             background-color: #edebe5;
             border: none;
-            padding-right: 210px;
-            padding-bottom: 40px;
+            padding-right: 21rem;
+            padding-bottom: 4rem;
 }
         textarea[placeholder]{
-            padding-left: 20px;
+            padding-left: 2rem;
    }
         .btn-submit{
             display: inline-block;
-            padding: 10px 30px;
+            padding: 1rem 3rem;
             text-decoration: none;
             background-color: #e67e22;
             color: #fff;
             border: none;
             margin-left: 68%;
             cursor: pointer;
-            margin-top: 10px;
+            margin-top: 1rem;
 }
         .contact-img{
             margin-left: 10%;
-            height: 260px;
-            width: 350px;
-            margin-top: 10px;
+            height: 26rem;
+            width: 35rem;
+            margin-top: 1rem;
 
 }
 
@@ -142,38 +173,38 @@
         border: none;
 }
     textarea{
-        margin-top: 10px;
+        margin-top: 1rem;
         background-color: #edebe5;
         border: none;
-        padding-right: 95px;
+        padding-right: 9.5rem;
 }
    textarea[placeholder]{
-       padding-left: 20px;
+       padding-left: 2rem;
    }
     .contact-img{
         margin-left: 20%;
-        height: 230px;
-        width: 230px;
-        margin-top: 10px;
+        height: 23rem;
+        width: 23rem;
+        margin-top: 1rem;
 
 }
     .btn-submit{
         display: inline-block;
-        padding: 10px 30px;
+        padding: 1rem 3rem;
         text-decoration: none;
         background-color: #e67e22;
         color: #fff;
         border: none;
         margin-left: 60%;
         cursor: pointer;
-        margin-top: 10px;
+        margin-top: 1rem;
 }
 }
 
 /*small phones from 0 to 480px*/
 @media only screen and (max-width:500px){
 .contacts{
-    margin-left: -70px;
+    margin-left: -7rem;
 }
 
 input[type=text] {
@@ -183,23 +214,23 @@ input[type=text] {
 
 .contact-img{
     margin-left: 20%;
-    height: 210px;
-    width: 200px;
-    margin-top: 10px;
+    height: 21rem;
+    width: 20rem;
+    margin-top: 1rem;
 
 }
 .myform{
     margin-right: 20%;
 }
 textarea{
-    margin-top: 10px;
+    margin-top: 1rem;
     background-color: #edebe5;
     border: none;
     width: 100%;
 }
 .btn-submit{
     display: inline-block;
-    padding: 10px 30px;
+    padding: 1rem 3rem;
     text-decoration: none;
     background-color: #e67e22;
     color: #fff;
@@ -208,7 +239,7 @@ textarea{
     cursor: pointer;
 }
      textarea[placeholder]{
-       padding-left: 20px;
+       padding-left: 2rem;
    }
 
 }
