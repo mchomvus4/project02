@@ -93,11 +93,16 @@ h1{
 .main-nav li a:hover,
 .main-nav li a:active{
     border-bottom: 0.2rem solid #ed5421;
-
-
 }
 
 @media only screen and (min-width:2000px){
+
+    .main-nav li a:hover,
+    .main-nav li a:active{
+         border-bottom: 0.2rem solid #ed5421;
+         padding-bottom: 1rem;
+
+}
 
     .main-nav li a{
         font-size: 2rem;
