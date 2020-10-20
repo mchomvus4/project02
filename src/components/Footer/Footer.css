@@ -1,17 +1,15 @@
 .designfooter{
     color: #ed5421;
     position: absolute;
-    margin-top: 30px;
-    margin-left: 60px;
+    margin-top: 3rem;
+    margin-left: 6rem;
     font-style: italic;
-    border-bottom: 1px solid #ed5421; 
-    
-    
+    border-bottom: 0.1rem solid #ed5421; 
 }
 .logofooter{
     color: #fff;
     position: absolute;
-    margin-top: 30px;
+    margin-top: 3rem;
    
 }
 .logofooter,
@@ -21,83 +19,83 @@
    
 }
 .footer-section{
-background-color: #282622;
-    height: 380px;
-   width: 100%;
+    background-color: #282622;
+    height: 38rem;
+    width: 100%;
 }
 
 .footer-one{
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #fff;
-    padding-top: 40px;
+    padding-top: 4rem;
     margin-left: 20%;
     text-align: justify;
-    line-height: 20px;
+    line-height: 2rem;
 }
 .logedesign-footer{
     margin-left: 20%;
-    margin-top: -30px;
+    margin-top: -3rem;
 }
 .company{
     color: #fff;
-    font-size: 16px;
-    margin-left: 30px;   
+    font-size: 1.6rem;
+    margin-left: 3rem;   
 }
 
 .column-two{
     color: #fff;
-    font-size: 14px;
-    padding-top: 15px;
-    margin-left: 30px;
+    font-size: 1.4rem;
+    padding-top: 1.5rem;
+    margin-left: 3rem;
 }
 .column-career{
     color: #ed5421;
-    font-size: 14px;
-    padding-top: 15px;
-    margin-left: 30px;
+    font-size: 1.4rem;
+    padding-top: 1.5rem;
+    margin-left: 3rem;
 }
 .quick-links{
     color: #fff;
-    font-size: 16px
+    font-size: 1.6rem
 }
 .column-four{
     color: #fff;
-    font-size: 14px;
-    padding-top: 15px;
+    font-size: 1.4rem;
+    padding-top: 1.5rem;
    
 }
 
 .connect-with-us{
     color: #fff;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 .btn-subscribe{
     color: #fff;
-    font-size: 16px;
-    padding-top: 50px;
+    font-size: 1.6rem;
+    padding-top: 5rem;
 }
 input[type=text] {
   width: 90%;
-  padding: 8px 20px;
-  margin-top: 10px;
+  padding: 0.8rem 2rem;
+  margin-top: 1rem;
   box-sizing: border-box;
 }
 .column-five{
      color: #fff;
-    font-size: 14px;
-    padding-top: 15px;
+    font-size: 1.4rem;
+    padding-top: 1.5rem;
 }
 
 .travellers{
     color: #fff;
-    font-size: 16px;
+    font-size: 1.6rem;
     
     
 }
 .column-three{
     color: #fff;
-    font-size: 14px;
-    padding-top: 15px;
+    font-size: 1.4rem;
+    padding-top: 1.5rem;
    
 }
 
@@ -112,13 +110,31 @@ input[type=text] {
 .developer{
    
     margin-left: 28%;
-    padding-top: 60px;
+    padding-top: 6rem;
     color: #fff;
 }
 
 @media only screen and (min-width:2000px){
-
-
+   .developer{
+       font-size: 2rem;
+   }
+   .footer-section{
+       height: 38rem;
+   }
+   .designfooter{
+    margin-left: 8rem;
+    
+   }
+   .logofooter,
+   .designfooter{
+       font-size: 3rem;
+   }
+   .footer-one{
+      margin-top: 3rem;
+      font-size: 2rem;
+      line-height: 2.5rem;
+      
+   }
 }
 /*Big tablet to 1200px (widths smaller that the 1140px row)*/
 @media only screen and (max-width:1200px){
@@ -129,11 +145,11 @@ input[type=text] {
 /*small tablets to big tablets: from 768px to 1023px*/
 @media only screen and (max-width:1023px){
 .footer-one{
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 .footer-line{
     margin-top: 35%;
-    border-top: 1px solid #b5bdbf;
+    border-top: 0.1rem solid #b5bdbf;
     color: #fff;
     opacity: .8;
 }
@@ -146,21 +162,21 @@ input[type=text] {
 @media only screen and (max-width:767px){
 .logofooter,
 .designfooter{
-    font-size:16px;
+    font-size:1.6rem;
 }
 .designfooter{
-    margin-left: 40px;
+    margin-left: 4rem;
 }
 .company,
 .travellers,
 .quick-links,
 .connect-with-us{
-    font-size: 12px;
+    font-size: 1.2rem;
      
 }
 .footer-one{
-    font-size: 14px;
-    margin-top: -10px;
+    font-size: 1.4rem;
+    margin-top: -1rem;
 }
 .footer-button{
     margin-top: 45%; 
@@ -169,13 +185,13 @@ input[type=text] {
 .column-three,
 .column-four,
 .column-five{
-    font-size: 12px;
+    font-size: 1.2rem;
 }
 .column-career{
-    font-size: 10px; 
+    font-size: 1rem; 
 }
 .developer{
-    font-size: 16px;
+    font-size: 1.6rem;
     margin-left: 20%;
 }
 input[type=text] {
@@ -188,11 +204,11 @@ input[type=text] {
 @media only screen and (max-width:500px){
 .logofooter,
 .designfooter{
-    font-size:10px;
+    font-size:1rem;
 }
 
 .designfooter{
-    margin-left: 25px;
+    margin-left: 2.5rem;
 }
 .footer-section{
     background-color: #282622;
@@ -200,7 +216,7 @@ input[type=text] {
     
 }
 .footer-one{
-    font-size: 10px;
+    font-size: 1rem;
 }
 .footer-line{
     margin-top: 60%;
@@ -208,11 +224,11 @@ input[type=text] {
     
 }
 .developer{
-    font-size: 14px;
+    font-size: 1.4rem;
     
 }
 .btn-subscribe{
-font-size: 10px;
+font-size: 1rem;
    
 }
 .company,
@@ -230,7 +246,7 @@ font-size: 10px;
 .column-career{
     color: #ed5421;
     margin-left: 30%;
-    font-size: 10px;
+    font-size: 1rem;
 }
 
 input[type=text] {
